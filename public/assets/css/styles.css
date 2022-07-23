@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Sora', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-top: 5rem;
+  background: #1c1c1c;
+  color: #fff;
+}
+
+.container {
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 480px;
+}
+
+label {
+  font-size: 1rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+input,
+.input_google {
+  width: 280px;
+  height: 40px;
+  border: none;
+  border-radius: 0.2rem;
+  margin-top: 0.4rem;
+  padding: 0.6rem;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline-color: #f2ce1b;
+}
+
+button {
+  font-size: 1rem;
+  margin-top: 1rem;
+  width: 280px;
+  height: 40px;
+  text-transform: uppercase;
+  background: #f2ce1b;
+  color: #1c1c1c;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f2ce1bdc;
+}
+
+.input_google {
+  background: #f2ce1b;
+  color: #1c1c1c;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 1.5rem 0;
+  font-weight: bold;
+}
+
+.input_google:hover {
+  background: #f2ce1bdc;
+}
+
+.password_recover {
+  margin: 0.5rem 0;
+  color: #f2ce1b;
+}
+
+.password_recover:hover {
+  color: #f2ce1bdc;
+}
+
+.optional {
+  font-size: 0.6rem;
+  color: #f2ce1bdc;
+}
+
+input[type='checkbox'] {
+  width: 12px;
+  height: 12px;
+}
