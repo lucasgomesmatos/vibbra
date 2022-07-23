@@ -13,9 +13,9 @@ body {
   display: flex;
   align-items: baseline;
   justify-content: center;
-  margin-top: 5rem;
   background: #1c1c1c;
   color: #fff;
+  padding: 2rem;
 }
 
 .container {
